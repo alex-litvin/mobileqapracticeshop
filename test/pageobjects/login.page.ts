@@ -40,6 +40,7 @@ class LoginPage{
     }
 
     public async enterData(username:string, password:string){
+        await this.usernameField.waitForDisplayed({ timeout: 2000 })
         await this.usernameField.setValue(username),
         await this.passwordField.setValue(password)
         //await this.loginBtn.click()

@@ -1,0 +1,29 @@
+{
+    "valid" : {
+        "fullname":"Fill Fillow",
+        "address1":"Mandorley 112",
+        "address2":"Entrance 1",
+        "city":"Truro",
+        "state":"Cornwall",
+        "zipcode":"89750",
+        "country":"United Kingdom"
+    },
+    "missingcity" : {
+        "fullname":"Fill Fillow",
+        "address1":"Mandorley 112",
+        "address2":"Entrance 1",
+        "city":"",
+        "state":"Cornwall",
+        "zipcode":"89750",
+        "country":"United Kingdom"
+    },
+    "invalidcity" : {
+        "fullname":"Fill Fillow",
+        "address1":"Mandorley 112",
+        "address2":"Entrance 1",
+        "city":"@!$&",
+        "state":"Cornwall",
+        "zipcode":"89750",
+        "country":"United Kingdom"
+    }
+}
