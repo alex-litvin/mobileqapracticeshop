@@ -1,0 +1,15 @@
+{
+  "validCard": {
+    "fullName": "Fill Fillow",
+    "number": "4242424242424242",
+    "expiration": "12/28",
+    "securityCode": "123"
+    
+  },
+  "notvalidCard": {
+    "fullName": "Fill Fillow",
+    "number": "4242424242424242",
+    "expiration": "jk/kl",
+    "securityCode": "123"
+  }
+}
